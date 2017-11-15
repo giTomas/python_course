@@ -23,5 +23,5 @@ print(type(capital_keys))
 
 #tuple compehension
 example_tuple = (64, '@')
-strigified = tuple(str(x) for x in example_tuple)
-print(strigified)
+stringified = tuple(str(x) for x in example_tuple)
+print(stringified)

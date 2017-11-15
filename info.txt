@@ -1,0 +1,9 @@
+# create virtual enviro
+$ python -m venv <folderName>
+
+# execute activation command
+$ source bin/activate
+# for win
+$ bin\activate.bat
+
+# inside pip install <nameOfThePackage>
