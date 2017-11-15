@@ -5,8 +5,33 @@ previous program on its standard input, by default. There are several
 alternate ways if passing data between programs.
 """
 
+import argparse
+
+from pipeline.interface import TextInterface
+
 def _launch():
-    print("Pipeline launched!")
+    parser = argparse.ArgumentParser(
+        prog = 'python -m pipeline',
+        description = __doc__
+    )
+
+    parser.add_argument(
+        '-k', '--keep-going',
+        action = 'store_true',
+        default = False
+    )
+
+    parser.add_argument('filename')
+
+    args = parser.parse_args()
+
+    iface = TextInterface(args.keep_going, args.filename)
+    iface.cmdlloop()
+
+    print(args.keep_going)
+    print(args.filename)
+    #
+    # print("Pipeline launched!")
 
 if __name__ == '__main__':
     _launch()
