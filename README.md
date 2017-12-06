@@ -8,7 +8,7 @@ https://www.eduonix.com/blog/software-development/learn-object-oriented-programm
 
 https://codefellows.github.io/sea-python-401d4/lectures/inheritance_v_composition.html
 
-## data trnasfer objects
+## data transfer objects
 https://dbader.org/blog/records-structs-and-data-transfer-objects-in-python
 
 ## generators
