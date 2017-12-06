@@ -13,3 +13,6 @@ https://dbader.org/blog/records-structs-and-data-transfer-objects-in-python
 
 ## generators
 https://realpython.com/blog/python/introduction-to-python-generators/
+
+## strings
+https://dbader.org/blog/python-repr-vs-str
