@@ -3,7 +3,7 @@ class Robot:
 
     # class variable
     __population = 0
-    __actives = 0
+    # __actives = 0
 
     def __init__(self, name, energy=20):
         """Initializes the data"""
@@ -14,7 +14,7 @@ class Robot:
 
         Robot.__population += 1
 
-        check_active()
+        # self.check_active()
 
     def die(self):
         """I am dying."""
@@ -27,33 +27,33 @@ class Robot:
         else:
             print("There are still {population:d} robots".format(population=Robot.__population))
 
-    def check_active(self):
-        """Check if robot have enough energy to by active""""
-
-        if self.energy > 0:
-            self.activate()
-            Robot.__actives += 1
-        else:
-            self.deactivate()
-            Robot.__actives -= 1
-
-    def deactivate(self):
-        """Deacttivate robot"""
-        self.active = False
-
-
-    def activate(self):
-        """Activate robot"""
-        self.active = True
-
-
-    def increase_energy(self, energy):
-        """Increase robot's energy"""
-        self.energy += energy
-
-    def decrease_energy(self, energy):
-        """Decrease robot's energy"""
-        self.energy -= energy
+    # def check_active(self):
+    #     """Check if robot have enough energy to by active""""
+    #
+    #     if self.energy > 0:
+    #         self.activate()
+    #         Robot.__actives += 1
+    #     else:
+    #         self.deactivate()
+    #         Robot.__actives -= 1
+    #
+    # def deactivate(self):
+    #     """Deacttivate robot"""
+    #     self.active = False
+    #
+    #
+    # def activate(self):
+    #     """Activate robot"""
+    #     self.active = True
+    #
+    #
+    # def increase_energy(self, energy):
+    #     """Increase robot's energy"""
+    #     self.energy += energy
+    #
+    # def decrease_energy(self, energy):
+    #     """Decrease robot's energy"""
+    #     self.energy -= energy
 
     #getter
     #setter -increase
@@ -70,7 +70,7 @@ class Robot:
         """Print the current population."""
         print("We have {population:d}".format(population=cls.__population))
 
-    @classmethod    
+    @classmethod
     def how_many_active(cls):
         """Print the current population."""
         print("We have {active:d}".format(population=cls.__actives))
