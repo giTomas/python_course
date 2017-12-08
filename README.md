@@ -1,5 +1,11 @@
 # python_course
 
+### async
+https://medium.com/python-pandemonium/asyncio-coroutine-patterns-beyond-await-a6121486656f
+
+### coroutines
+http://wla.berkeley.edu/~cs61a/fa11/lectures/streams.html
+
 ### OOP
 https://python.swaroopch.com/oop.html
 
