@@ -6,6 +6,9 @@ https://python.swaroopch.com/oop.html
 ### OOP - composition
 https://www.eduonix.com/blog/software-development/learn-object-oriented-programming-in-python-composition/
 
+### OOP - methods
+https://www.youtube.com/watch?v=PNpt7cFjGsM
+
 https://codefellows.github.io/sea-python-401d4/lectures/inheritance_v_composition.html
 
 ### data transfer objects
