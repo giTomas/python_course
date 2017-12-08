@@ -6,6 +6,8 @@ https://medium.com/python-pandemonium/asyncio-coroutine-patterns-beyond-await-a6
 ### coroutines
 http://wla.berkeley.edu/~cs61a/fa11/lectures/streams.html
 
+http://www.dabeaz.com/coroutines/Coroutines.pdf
+
 ### OOP
 https://python.swaroopch.com/oop.html
 
