@@ -3,6 +3,10 @@
 ### OOP
 https://python.swaroopch.com/oop.html
 
+https://www.python-course.eu/object_oriented_programming.php
+
+https://www.programiz.com/python-programming/multiple-inheritance
+
 ### OOP - composition
 https://www.eduonix.com/blog/software-development/learn-object-oriented-programming-in-python-composition/
 
