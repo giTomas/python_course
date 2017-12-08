@@ -1,5 +1,6 @@
 from multiprocessing import Process
 
+# overide run method
 class Squares(Process):
     def run(self):
         for i in range(10):

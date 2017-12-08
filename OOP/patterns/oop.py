@@ -80,16 +80,18 @@ droid1 = Robot("R2-D2")
 droid1.say_hi()
 droid1.how_many()
 
+
 try:
     print(droid1.__population)
-except:
+except AttributeError as e:
     print("not accesible from instance of Robot class")
+    print(e)
 
 try:
     print(Robot.__population)
-except:
-    print("not accesible from Robot class")
-
+except AttributeError as e:
+    print("not accesible on Robot class")
+    print(e)
 
 droid2 = Robot("C-3PO")
 droid2.say_hi()
